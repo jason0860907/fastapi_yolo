@@ -52,7 +52,7 @@ This application uses FastAPI framework and YOLO model for object detection.
       - ![UI Result](ui_result.png)
       - Example
         ```bash
-         - {  "filename": "bus.jpg",
+          {  "filename": "bus.jpg",
               "output_cls_box": [
                 {
                   "index": 0,
@@ -69,7 +69,8 @@ This application uses FastAPI framework and YOLO model for object detection.
                   "ymin": 407.5936584472656,  # bounding box top
                   "xmax": 343.47802734375,    # bounding box right
                   "ymax": 855.8360595703125   # bounding box bottom
-                }]
+                }
+              ]
            }
          ```
 ## Notes

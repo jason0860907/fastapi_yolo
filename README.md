@@ -49,6 +49,7 @@ This application uses FastAPI framework and YOLO model for object detection.
 7. Detection Results
       - After uploading an image using the /upload endpoint, the application performs object detection using the YOLO ONNX model. The detected objects along with their bounding boxes are returned as a JSON object in the response.
       - Each detected object is represented by its class label and the coordinates of its bounding box (xmin, ymin, xmax, ymax).
+      - ![UI Result](ui_result.png)
 
 
 ## Notes

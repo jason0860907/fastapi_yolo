@@ -51,6 +51,7 @@ This application uses FastAPI framework and YOLO model for object detection.
       - Each detected object is represented by its class label and the coordinates of its bounding box (xmin, ymin, xmax, ymax).
       - ![UI Result](ui_result.png)
       - Example
+        ```bash
          - {  "filename": "bus.jpg",
               "output_cls_box": [
                 {
@@ -70,7 +71,7 @@ This application uses FastAPI framework and YOLO model for object detection.
                   "ymax": 855.8360595703125   # bounding box bottom
                 }]
            }
-
+         ```
 ## Notes
 
 - Make sure to install the required Python libraries and YOLO model file `yolov8n.onnx`.

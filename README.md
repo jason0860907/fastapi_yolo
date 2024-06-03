@@ -44,11 +44,12 @@ This application uses FastAPI framework and YOLO model for object detection.
 
      - Click on the /upload endpoint to expand it.
 
-     - Click on the "Try it out" button.
+     - Click on the "Try it out" -> "Choose File" -> "Execute" and see the detection results.
 
-     - Click on "Choose File" and select the image you want to upload.
+7. Detection Results
+      - After uploading an image using the /upload endpoint, the application performs object detection using the YOLO ONNX model. The detected objects along with their bounding boxes are returned as a JSON object in the response.
+      - Each detected object is represented by its class label and the coordinates of its bounding box (xmin, ymin, xmax, ymax).
 
-     - Click on the "Execute" button to upload the image and see the detection results.
 
 ## Notes
 

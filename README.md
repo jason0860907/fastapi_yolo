@@ -40,15 +40,15 @@ This application uses FastAPI framework and YOLO model for object detection.
 
 6. (Option) Upload an image using Swagger UI
 
-  - Open your web browser and go to http://localhost:8000/docs. This will open SwaggerUI, which provides a graphical interface for interacting with the API.
+     - Open your web browser and go to http://localhost:8000/docs. This will open SwaggerUI, which provides a graphical interface for interacting with the API.
 
-  - Click on the /upload endpoint to expand it.
+     - Click on the /upload endpoint to expand it.
 
-  - Click on the "Try it out" button.
+     - Click on the "Try it out" button.
 
-  - Click on "Choose File" and select the image you want to upload.
+     - Click on "Choose File" and select the image you want to upload.
 
-  - Click on the "Execute" button to upload the image and see the detection results.
+     - Click on the "Execute" button to upload the image and see the detection results.
 
 ## Notes
 

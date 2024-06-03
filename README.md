@@ -30,7 +30,7 @@ This application uses FastAPI framework and YOLO model for object detection.
    uvicorn fastapi_test:app --reload
    ```
 
-5.1 Upload an image using HTTP POST request to the `/upload` route. Example:
+5. (Option) Upload an image using HTTP POST request to the `/upload` route. Example:
 
    ```bash
    curl -X 'POST' \
@@ -38,7 +38,7 @@ This application uses FastAPI framework and YOLO model for object detection.
      -F 'file=@/path/to/your/image.jpg'
    ```
 
-5.2 Using Swagger UI
+6. (Option) Upload an image using Swagger UI
 
   - Open your web browser and go to http://localhost:8000/docs. This will open SwaggerUI, which provides a graphical interface for interacting with the API.
 
